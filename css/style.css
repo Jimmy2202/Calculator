@@ -95,10 +95,10 @@
      font-size: larger;
  }
 
- @media (max-width:400px) {
+ @media (max-width:420px) {
     .container {
         width: 80%;
-        height: 70%;
+        height: 40%;
     }
 
     .display {
@@ -111,6 +111,11 @@
 
     .btn2, .del {
         height: 30%;
+    }
+
+    .operations{
+        height: 35%;
+        padding: 5%;
     }
 }
 
@@ -127,5 +132,29 @@
         font-size: 4%;
         height: 7%;
         width: 7%;
+    }
+}
+
+@media (max-height:281px) {
+
+    .btn{
+        padding: 0%;
+        font-size: 10%;
+        height: 12%;
+        width: 12%;
+    }
+
+    .btn2, .del {
+        font-size: 4%;
+        height: 25%;
+        width: 10%;
+    }
+
+    .operations{
+        height: 30%;
+    }
+
+    .display{
+        top: 5%;
     }
 }
